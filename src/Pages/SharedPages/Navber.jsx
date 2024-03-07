@@ -20,9 +20,9 @@ const Navber = () => {
                     </li>
                     <li>
                         <a>Service</a>
-                        <ul className="p-2 text-black">
-                            <li><Link>Dr Conseltency</Link></li>
-                            <li><Link>Lab Tests</Link></li>                   
+                        <ul className="p-2 text-blue">
+                            <li><Link to="/doctors">Dr Conseltency</Link></li>
+                            <li><Link >Lab Tests</Link></li>                   
                         </ul>
                     </li>
                     <li>
@@ -38,27 +38,27 @@ const Navber = () => {
             <div className="navbar-center  hidden lg:flex">
                 <ul className="menu menu-horizontal px-1 ">
                 <li>
-                    <a> <Link to="/">Home</Link></a>
+                    <Link to="/"> Home</Link>
                    
                 </li>
                 <li>
                     <details>
                     <summary>Services</summary>
-                    <ul className="p-2 text-black">
+                    <ul className="p-2 z-10 bg-neutral decoration-zinc-100">
                         <li> 
-                          <a> <Link>Dr Conseltency</Link></a> 
+                          <Link to="/doctors">Dr Conseltency</Link>
                         </li>
                         <li>
-                           <a> <Link>Lab Tests</Link></a>
+                            <Link>Lab Tests</Link>
                         </li>
                     </ul>
                     </details>
                 </li>
                 <li> 
-                   <a> <Link to="/about">About</Link></a>
+                    <Link to="/about">About</Link>
                 </li>
                 <li> 
-                   <a> <Link to="/about">About</Link></a>
+                   <Link to="/about">Cantact</Link>
                 </li>
                 </ul>
             </div>

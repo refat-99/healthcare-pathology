@@ -1,0 +1,122 @@
+[
+    {
+        "_id": "0282e0e58fa5c404fbd15261f11c2ab6a",
+        "rating": { "number": 4.5, "badge": "Excellent" },
+        "total_view": 488,        
+        "lab_test": {
+          "title": "R.B.S",
+          "price": "600",
+          "img": "",
+          "test_details": ""
+        },
+        "doctor_name":"Prof. Dr. Shakil Gafur",
+        "image_url": "photo/dr.sujon.jpg",
+        "degrees": "MBBS, DTCD, MD(Cardiology)",
+        "specialist": "Cardiology, Hypertension & Chest Diseases Specialist",
+        "job":{
+            "org":"Rangpur Medical College & Hospital",
+            "level":"Professor & Head, Cardiology"
+        },
+        "details": "Prof. Dr. Shakil Gafur is a Cardiologist in Rangpur. His qualification is MBBS, DTCD, MD (Cardiology). He is a Professor & Head, Cardiology at Rangpur Medical College & Hospital. He regularly provides treatment to his patients at Update Diagnostic, Rangpur. Practicing hour of Prof. Dr. Shakil Gafur at Update Diagnostic, Rangpur is Unknown. Please call to know visiting hour."
+      },
+    {
+        "_id": "0282e0e1f11cf2ab6a58a5c404fbd1526",
+        "rating": { "number": 4.5, "badge": "Excellent" },
+        "total_view": 488,        
+        "lab_test": {
+          "title": "R.B.S",
+          "price": "600",
+          "img": "",
+          "test_details": ""
+        },
+        "doctor_name":"Dr. Md. Hasanul Islam",
+        "image_url": "photo/doctor-2.jpg",
+        "degrees": "MBBS, MD (Cardiology)",
+        "specialist": "Cardiology Specialist",
+        "job":{
+            "org":"Rangpur Medical College & Hospital",
+            "level":"Doctor"
+        },
+        "details": "Dr. Md. Hasanul Islam is a Cardiologist in Rangpur. His qualification is MBBS, MD (Cardiology). He is working as a Cardiology Specialist doctor in Rangpur Medical College & Hospital. He regularly provides treatment to his patients at Update Diagnostic, Rangpur. Practicing hour of Dr. Md. Hasanul Islam at Update Diagnostic, Rangpur is Unknown. Please call to know visiting hour."
+      },
+    {
+        "_id": "0282e0e1f11c2ab6a04fbd15b2658a5c4",
+        "rating": { "number": 4.5, "badge": "Excellent" },
+        "total_view": 488,        
+        "lab_test": {
+          "title": "R.B.S",
+          "price": "600",
+          "img": "",
+          "test_details": ""
+        },
+        "doctor_name":"Prof. Dr. Samia Mubin",
+        "image_url": "photo/doctor-3.jpg",
+        "degrees": "MBBS(DMC), FCPS(Surgery), MRCS(UK)",
+        "specialist": "Breast Cancer Specialist Surgeon",
+        "job":{
+            "org":"Rangpur Medical College & Hospital",
+            "level":"Doctor"
+        },
+        "details": "Prof. Dr. Samia Mubin is a General Surgeon in Dhaka. Her qualification is MBBS (DMC), FCPS (Surgery), MRCS (UK). She is a Professor, Surgery at Bangabandhu Sheikh Mujib Medical University Hospital. She regularly provides treatment to her patients at Green Life Hospital, Dhaka. Practicing hour of Prof. Dr. Samia Mubin at Green Life Hospital, Dhaka is 3pm to 5pm (Sat, Sun, Tue & Thu)."
+      },
+    {
+        "_id": "0282e0e1f11c2ab6a04fbd15w2658a5cdes4",
+        "rating": { "number": 4.5, "badge": "Excellent" },
+        "total_view": 988,        
+        "lab_test": {
+          "title": "R.B.S",
+          "price": "600",
+          "img": "",
+          "test_details": ""
+        },
+        "doctor_name":"Dr. Chitta Ranjan Das",
+        "image_url": "photo/doctor-2.jpg",
+        "degrees": "MBBS, MS (Surgery)",
+        "specialist": "General Surgery Specialist",
+        "job":{
+            "org":"Rangpur Medical College & Hospital",
+            "level":"Doctor"
+        },
+        "details": "Dr. Chitta Ranjan Das is a General Surgeon in Dhaka. His qualification is MBBS, MS (Surgery). He is working as a General Surgery Specialist doctor in Bangabandhu Sheikh Mujib Medical University Hospital. He regularly provides treatment to his patients at Comfort Diagnostic Center, Dhanmondi. Practicing hour of Dr. Chitta Ranjan Das at Comfort Diagnostic Center, Dhanmondi is 5pm to 7pm (Closed: Friday)."
+      },
+    {
+        "_id": "0282e0e1f11c2ab6a04fbdo152658a5cdes4",
+        "rating": { "number": 4.5, "badge": "Excellent" },
+        "total_view": 988,        
+        "lab_test": {
+          "title": "R.B.S",
+          "price": "600",
+          "img": "",
+          "test_details": ""
+        },
+        "doctor_name":"Dr. Kazi Nasid Naznin",
+        "image_url": "photo/doctor-2.jpg",
+        "degrees": "MBBS, FCPS(Surgery), MS(Colorectal Surgery)",
+        "specialist": "General, Breast & Colorectal Surgeon",
+        "job":{
+            "org":"Rangpur Medical College & Hospital",
+            "level":"Doctor"
+        },
+        "details": "Dr. Chitta Ranjan Das is a General Surgeon in Dhaka. His qualification is MBBS, MS (Surgery). He is working as a General Surgery Specialist doctor in Bangabandhu Sheikh Mujib Medical University Hospital. He regularly provides treatment to his patients at Comfort Diagnostic Center, Dhanmondi. Practicing hour of Dr. Chitta Ranjan Das at Comfort Diagnostic Center, Dhanmondi is 5pm to 7pm (Closed: Friday)."
+      },
+    {
+        "_id": "0282e0e1f11c2ab6a04fbd1526r58a5cdes4",
+        "rating": { "number": 4.5, "badge": "Excellent" },
+        "total_view": 988,        
+        "lab_test": {
+          "title": "R.B.S",
+          "price": "600",
+          "img": "",
+          "test_details": ""
+        },
+        "doctor_name":"Dr. Kazi Nasid Naznin",
+        "image_url": "photo/doctor-2.jpg",
+        "degrees": "MBBS,FCPS(Surgery),MS(Colorectal Surgery)",
+        "specialist": "General, Breast & Colorectal Surgeon",
+        "job":{
+            "org":"Rangpur Medical College & Hospital",
+            "level":"Doctor"
+        },
+        "details": "Dr.Chitta Ranjan Das is a General Surgeon in Dhaka. His qualification is MBBS, MS (Surgery). He is working as a General Surgery Specialist doctor in Bangabandhu Sheikh Mujib Medical University Hospital. He regularly provides treatment to his patients at Comfort Diagnostic Center, Dhanmondi. Practicing hour of Dr. Chitta Ranjan Das at Comfort Diagnostic Center, Dhanmondi is 5pm to 7pm (Closed: Friday)."
+      }
+]

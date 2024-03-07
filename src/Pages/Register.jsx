@@ -2,8 +2,9 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 const Register = () => {
+    
     return (
-        <div>
+        <div className='text-center'>
             <h2>Register</h2>
             <div className="hero-content flex-col lg:flex-row-reverse">
                 <div className="card shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
