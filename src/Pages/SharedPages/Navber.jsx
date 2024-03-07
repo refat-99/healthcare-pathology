@@ -1,9 +1,11 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import { Link } from 'react-router-dom';
 import logo from "../../assets/healthcareLogo2.png";
+import { authContext } from '../../ProviderAuth/AuthProvider';
 
 
 const Navber = () => {
+    const {user,logOut} = useContext(authContext);
     return (
         <div>
             {/* navber form desy ui */}
@@ -63,7 +65,10 @@ const Navber = () => {
                 </ul>
             </div>
             <div className="navbar-end">
-                <Link to="/login" className="btn btn-primary sm:btn-sm md:btn-md mr-5">Login</Link>
+               {
+                user ?  <Link  onClick={logOut} to=""  className="btn btn-primary sm:btn-sm md:btn-md mr-5">Log Out</Link>:<Link to="/login" className="btn btn-primary sm:btn-sm md:btn-md mr-5">Login</Link>
+               }
+               
             </div>
             </div>
             {/* test */}
