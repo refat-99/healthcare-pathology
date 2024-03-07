@@ -5,6 +5,7 @@ import About from "../Pages/About";
 import Login from "../Pages/Login";
 import Register from "../Pages/Register";
 import Doctors from "../Pages/Doctor/Doctors";
+import Booking from "../Pages/Doctor/Booking";
 
 
 
@@ -17,7 +18,8 @@ const router = createBrowserRouter([
         {
             path:"/",
             element: <Home></Home>,
-            loader: () => fetch('/healthcare.json')
+            loader: () =>fetch("/healthcare.json")
+            
         },
         {
             path:"/about",
@@ -35,6 +37,11 @@ const router = createBrowserRouter([
             path:"/doctors",
             element: <Doctors></Doctors>,
             loader: () => fetch('/healthcare.json')
+        },
+        {
+          path:"/booking/:id",
+          element:<Booking></Booking>,
+          loader: () => fetch("/healthcare.json")
         }
         
       ]

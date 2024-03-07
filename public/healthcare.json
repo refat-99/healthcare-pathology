@@ -11,6 +11,7 @@
         },
         "doctor_name":"Prof. Dr. Shakil Gafur",
         "image_url": "photo/dr.sujon.jpg",
+        "img_url": "https://i.ibb.co/S7vwdkZ/dr-sujon.jpg",
         "degrees": "MBBS, DTCD, MD(Cardiology)",
         "specialist": "Cardiology, Hypertension & Chest Diseases Specialist",
         "job":{
@@ -31,6 +32,7 @@
         },
         "doctor_name":"Dr. Md. Hasanul Islam",
         "image_url": "photo/doctor-2.jpg",
+        "img_url": "https://i.ibb.co/SRw2Vx8/doctor-2.jpg",
         "degrees": "MBBS, MD (Cardiology)",
         "specialist": "Cardiology Specialist",
         "job":{
@@ -50,7 +52,8 @@
           "test_details": ""
         },
         "doctor_name":"Prof. Dr. Samia Mubin",
-        "image_url": "photo/doctor-3.jpg",
+        "image_url": "photo/doctor-7.jpg",
+        "img_url": "https://i.ibb.co/b3yBh1s/doctor-7.jpg",
         "degrees": "MBBS(DMC), FCPS(Surgery), MRCS(UK)",
         "specialist": "Breast Cancer Specialist Surgeon",
         "job":{
@@ -71,6 +74,7 @@
         },
         "doctor_name":"Dr. Chitta Ranjan Das",
         "image_url": "photo/doctor-2.jpg",
+        "img_url": "https://i.ibb.co/WxvzsLp/doctor-3.jpg",
         "degrees": "MBBS, MS (Surgery)",
         "specialist": "General Surgery Specialist",
         "job":{
@@ -90,7 +94,8 @@
           "test_details": ""
         },
         "doctor_name":"Dr. Kazi Nasid Naznin",
-        "image_url": "photo/doctor-2.jpg",
+        "image_url": "photo/doctor-5.jpg",
+        "img_url": "https://i.ibb.co/fM5zQkH/world-doctors-day-cute-blonde-young-doctor-with-stethoscope-medical-gown.jpg",
         "degrees": "MBBS, FCPS(Surgery), MS(Colorectal Surgery)",
         "specialist": "General, Breast & Colorectal Surgeon",
         "job":{
@@ -110,7 +115,8 @@
           "test_details": ""
         },
         "doctor_name":"Dr. Kazi Nasid Naznin",
-        "image_url": "photo/doctor-2.jpg",
+        "image_url": "photo/doctor-3.jpg",
+        "img_url":"https://i.ibb.co/4fJxmTH/doctor-3.jpg",
         "degrees": "MBBS,FCPS(Surgery),MS(Colorectal Surgery)",
         "specialist": "General, Breast & Colorectal Surgeon",
         "job":{

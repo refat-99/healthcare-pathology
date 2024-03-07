@@ -1,11 +1,10 @@
 import React from 'react';
-import Navber from '../SharedPages/Navber';
 import { useLoaderData } from 'react-router-dom';
 import Card from './Card';
 
 const Doctors = () => {
     const doctors = useLoaderData();
-    console.log(doctors)
+    // console.log(doctors)
    
     return (
            <div>
