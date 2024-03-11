@@ -1,5 +1,5 @@
 import React from 'react';
-import { useLoaderData, useParams } from 'react-router-dom';
+import { Link, useLoaderData, useParams } from 'react-router-dom';
 
 const Booking = () => {
     const {id} = useParams()
@@ -20,7 +20,7 @@ const Booking = () => {
                 <p className=''>{job.level}</p>
                 <p className='font-bold text-l'>{job.org}</p>
                 <p className="py-6">{details}</p>
-                <button className="btn btn-primary">Booking Confirm</button>
+                <button className="btn btn-primary"> <Link to="/bookingSubmit">Booking Confirm</Link></button>
                 </div>
             </div>
         </div>

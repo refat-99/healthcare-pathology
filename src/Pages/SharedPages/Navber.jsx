@@ -12,7 +12,7 @@ const Navber = () => {
             <div className="navbar  bg-neutral text-white">
                  {/* for mobile device */}
             <div className="navbar-start">
-                <div className="dropdown  text-blue-600">                  
+                <div className="dropdown  text-orange-600">                  
                 <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
                     <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
                 </div>
@@ -24,7 +24,7 @@ const Navber = () => {
                         <a>Service</a>
                         <ul className="p-2 text-blue">
                             <li><Link to="/doctors">Dr Conseltency</Link></li>
-                            <li><Link >Lab Tests</Link></li>                   
+                            <li><Link to="/labtest">Lab Tests</Link></li>                   
                         </ul>
                     </li>
                     <li>
@@ -32,12 +32,17 @@ const Navber = () => {
                     </li>
                 </ul>
                 </div>
-                <img src={logo} alt='' className='size-10 ml-5 mb-3' /> 
-               <Link className="btn btn-ghost text-xl">Healthcare Pathology</Link>
+                <div className='lg:ml-40'>
+                <img src={logo} alt='' className='h-9 w-16 pb-2 lg:ml-5 ' /> 
+               {/* <Link className="md:hidden ">Healthcare Pathology</Link> */}
+
+                </div>
+               
                 
             </div>
             {/* large sceen nav */}
             <div className="navbar-center  hidden lg:flex">
+            <Link className="lg:mr-20 text-orange-500 ">Healthcare Pathology</Link>
                 <ul className="menu menu-horizontal px-1 ">
                 <li>
                     <Link to="/"> Home</Link>
@@ -51,7 +56,7 @@ const Navber = () => {
                           <Link to="/doctors">Dr Conseltency</Link>
                         </li>
                         <li>
-                            <Link>Lab Tests</Link>
+                            <Link to="/labtest">Lab Tests</Link>
                         </li>
                     </ul>
                     </details>
@@ -66,7 +71,7 @@ const Navber = () => {
             </div>
             <div className="navbar-end">
                {
-                user ?  <Link  onClick={logOut} to=""  className="btn btn-primary sm:btn-sm md:btn-md mr-5">Log Out</Link>:<Link to="/login" className="btn btn-primary sm:btn-sm md:btn-md mr-5">Login</Link>
+                user ?  <Link  onClick={logOut} to=""  className="btn btn-warning btn-sm lg:mr-10">Log Out</Link>:<Link to="/login" className="btn btn-sm btn-warning lg:mr-10">Login</Link>
                }
                
             </div>

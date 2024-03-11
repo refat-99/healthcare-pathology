@@ -6,6 +6,9 @@ import Login from "../Pages/Login";
 import Register from "../Pages/Register";
 import Doctors from "../Pages/Doctor/Doctors";
 import Booking from "../Pages/Doctor/Booking";
+import BookingSubmit from "../Pages/Doctor/BookingSubmit";
+import PrivatePage from "../PrivatePage/PrivatePage";
+import Labtest from "../Pages/LabTest/Labtest";
 
 
 
@@ -40,8 +43,17 @@ const router = createBrowserRouter([
         },
         {
           path:"/booking/:id",
-          element:<Booking></Booking>,
+          element: <PrivatePage><Booking></Booking></PrivatePage>,
           loader: () => fetch("/healthcare.json")
+        },
+        {
+          path:"/bookingSubmit",
+          element: <BookingSubmit></BookingSubmit>
+        },
+        {
+          path: '/labtest',
+          element: <Labtest></Labtest>,
+          loader: () => fetch("/pathologyTest.json")
         }
         
       ]

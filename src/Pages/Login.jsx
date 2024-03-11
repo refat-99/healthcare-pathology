@@ -1,8 +1,9 @@
 import React, { useContext } from 'react';
-import { Link, useNavigate } from 'react-router-dom';
+import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { GoogleAuthProvider, getAuth, signInWithPopup } from "firebase/auth";
 import app from '../Firebase/firebase.confic';
 import { authContext } from '../ProviderAuth/AuthProvider';
+import Footer from './SharedPages/Footer/Footer';
 
 // const googleProvider = new GoogleAuthProvider();
 // const auth = getAuth(app);
@@ -10,6 +11,8 @@ import { authContext } from '../ProviderAuth/AuthProvider';
 const Login = () => {
     const {signUpWithGoogle,passwordLogIn}= useContext(authContext)
     const navigate = useNavigate();
+    const location = useLocation();
+    //  take state locaton from private page location path
     // signin with google 
     const handleGooleLogIn = () =>{
         // call a function for google login
@@ -17,6 +20,7 @@ const Login = () => {
             .then((result)=>{
                 const user = result.user;
                 console.log(user)
+                navigate(location?.state ? location.state : '/')
             })
             .catch((error)=>{
                 const massage = error.massage;
@@ -33,7 +37,9 @@ const Login = () => {
         passwordLogIn(email,password)
          .then((result) =>{
             console.log(result.user)
-            navigate("/")
+             // navigate after log in
+             navigate(location?.state ? location.state : '/')
+             // navigate('/')
 
          })
          .catch((error) =>{
@@ -77,6 +83,8 @@ const Login = () => {
             <button onClick={handleGooleLogIn} className='btn btn-neutral mt-4 w-80'>SignUp with Google</button> <br />
             <button className='btn btn-neutral mt-2 mb-8 w-80 '>SignUp with Github</button> 
             </div>
+
+            <Footer></Footer>
             
         </div>
     );

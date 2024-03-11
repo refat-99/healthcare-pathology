@@ -46,7 +46,7 @@ const Register = () => {
                         <button type='submit' className="btn btn-primary">Create Account</button>
                     </div>
                 </form>
-                <p>New to Healthcare<Link to="/login" className='btn btn-sm ml-3'>Login</Link></p>
+                <p>Already have an Account?<Link to="/login" className='btn btn-sm ml-3 mb-2'>Login</Link></p>
                 </div>
             </div>   
         </div>
