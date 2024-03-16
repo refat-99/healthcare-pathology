@@ -2,6 +2,7 @@ import React from 'react';
 import { useLoaderData } from 'react-router-dom';
 import LabCard from './LabCard';
 import Navber from '../SharedPages/Navber';
+import Footer from '../SharedPages/Footer/Footer';
 
 const Labtest = () => {
     const tests = useLoaderData();
@@ -9,7 +10,7 @@ const Labtest = () => {
     return (
             <div>
                 <Navber></Navber>
-                <p className='text-2xl font-bold text-red-50 text-center bg-blue-900 pb-1'>Lab Test Service</p>
+                <p className='text-2xl font-bold text-red-50 text-center bg-blue-900 pb-1 mt-20 rounded-lg'>Lab Test Service</p>
                 <div className=' container mt-2 px-3 mx-0 min-w-full flex flex-col items-center'>
                     <label className="input input-bordered flex h-10 w-80">
                         <input type="text" className="grow" placeholder="Search" />
@@ -22,8 +23,10 @@ const Labtest = () => {
                         tests.map(test => <LabCard
                         key={test.id}
                         test={test}
-                        ></LabCard> )}
+                        ></LabCard>
+                    )}
                 </div>
+                <Footer></Footer>
             </div>
     );
 };

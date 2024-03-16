@@ -9,13 +9,13 @@ const Home = () => {
     const doctors = useLoaderData();
     // console.log(data)
     return (
-        <>
+        <div>
             <Navber></Navber>
             <Carousel></Carousel>
            <Doctors doctors={doctors}></Doctors>
              <Footer></Footer>
            
-        </>
+        </div>
     );
 };
 

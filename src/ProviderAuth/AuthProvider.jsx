@@ -1,4 +1,4 @@
-import { GoogleAuthProvider, createUserWithEmailAndPassword, getAuth, onAuthStateChanged, signInWithEmailAndPassword, signInWithPopup, signOut } from 'firebase/auth';
+import { FacebookAuthProvider, GoogleAuthProvider, createUserWithEmailAndPassword, getAuth, onAuthStateChanged, signInWithEmailAndPassword, signInWithPopup, signOut } from 'firebase/auth';
 import React, { createContext, useEffect, useState } from 'react';
 import app from '../Firebase/firebase.confic';
 
@@ -7,6 +7,7 @@ import app from '../Firebase/firebase.confic';
 
 const auth = getAuth(app);
 const googleProvider = new GoogleAuthProvider()
+const facebookProvider = new FacebookAuthProvider()
 // create context 
   export const authContext = createContext(null);
 
@@ -20,6 +21,11 @@ const AuthProvider = ({children}) => {
             setLoading(true)
           return  signInWithPopup(auth,googleProvider);
 
+        }
+        // facebook signup
+        const signUpwithFacebook = () =>{
+            setLoading(true)
+            return signInWithPopup(auth,facebookProvider);
         }
         //login with email and password
          const passwordLogIn = (email,password) =>{
@@ -51,11 +57,13 @@ const AuthProvider = ({children}) => {
 
     const info = {
         signUpWithGoogle,
+        signUpwithFacebook,
         createUser,
         passwordLogIn,
         user,
         logOut,
-        loading
+        loading,
+        auth
 
     }
     return (

@@ -13,7 +13,7 @@ const Card = ({doctor}) => {
                         <small className="text-violent-700 ">{degrees.slice(0,35)}</small>
                         {
                             details.length> 10 ? <p>{details.slice(0,70)} 
-                            <Link to={`/booking/${_id}`} className='font-bold text-violet-950'>
+                            <Link to={`/booking/${_id}`} className='font-bold text-yellow-700'>
                                 .. read more</Link></p>:<p>{details}</p>
                         }
                     

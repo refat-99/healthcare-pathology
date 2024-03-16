@@ -6,8 +6,8 @@ import img4 from '../../assets/carousel-4.jpg';
 
 const Carousel = () => {
     return (
-        <div className='bg-sky-950	 place-content-cente'>
-        <div className="carousel lg:w-94 sm:w-full">
+        <div className='place-content-center mt-16'>
+        <div className="carousel lg:w-full sm:w-full rounded-lg">
           <div id="slide1" className="carousel-item relative w-full">
                 <img src={img1} className="w-full h-80" />
                 <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
