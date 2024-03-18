@@ -67,15 +67,15 @@ const Navber = () => {
                     <Link to="/about">About</Link>
                 </li>
                 <li> 
-                   <Link to="/about">Cantact</Link>
+                   <Link to="/cantact">Cantact</Link>
                 </li>
                 </ul>
             </div>
             <div className="navbar-end lg:mr-2">
                {
                 user ? <div className='flex'>
-                    <p className='text-xl mt-1'><AiOutlineSafety  /></p>
-                    <span className='ml-1 mt-1 font-extralight'>{user.displayName}</span>
+                    <p className='text-xl mt-2'><AiOutlineSafety size={16} /></p>
+                    <span className='ml-1 mt-2 text-xs font-extralight'>{user.displayName}</span>
                     <Link  onClick={logOut} className="btn btn-warning btn-sm lg:mr-10 ml-3">Log Out</Link>
                     </div>:<Link to="/login" className="btn btn-sm btn-warning lg:mr-10">Login</Link>
                }

@@ -10,6 +10,8 @@ import BookingSubmit from "../Pages/Doctor/BookingSubmit";
 import PrivatePage from "../PrivatePage/PrivatePage";
 import Labtest from "../Pages/LabTest/Labtest";
 import LabTestBook from "../Pages/LabTest/LabTestBook";
+import NotFound404 from "../Pages/SharedPages/NotFound404";
+import CantactUs from "../Pages/CantactUs";
 
 
 
@@ -60,6 +62,15 @@ const router = createBrowserRouter([
           path: '/labtestbook/:id',
           element: <PrivatePage><LabTestBook></LabTestBook></PrivatePage>,
           loader: () => fetch("/pathologyTest.json")
+        },
+        {
+          path:'/cantact',
+          element:<CantactUs></CantactUs>
+
+        },
+        {
+          path: "/*",
+          element: <NotFound404></NotFound404>
         }
         
       ]
